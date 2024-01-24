@@ -1,5 +1,5 @@
 import { tweetsData } from './data.js'
-import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
+import { v4 as uuidv4 } from 'https://jspm.dev/uuid'
 
 document.addEventListener('click', function(e){
     if(e.target.dataset.like){
